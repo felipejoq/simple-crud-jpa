@@ -17,7 +17,6 @@ public class ProductDaoJpaImpl implements IProductDao {
 
     @Override
     public Product create(Product product) {
-        System.out.println("ProductDaoJpaImpl.create");
         entityManager.getTransaction().begin();
         entityManager.persist(product);
         entityManager.getTransaction().commit();

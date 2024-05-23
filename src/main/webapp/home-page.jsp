@@ -21,11 +21,6 @@
                                 Administrar productos
                             </a>
                         </li>
-                        <li class="list-group-item">
-                            <a class="text-decoration-none" href="<%=request.getContextPath()%>/products">
-                                Agregar producto
-                            </a>
-                        </li>
                     </ul>
                 </div>
                 <div class="card-footer text-muted">
